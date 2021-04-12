@@ -1,0 +1,89 @@
+body{
+
+	background-image: url(images/background-sea.jpg);
+	color: white;
+	font-family: Century gothic;
+	text-align:center;
+}
+
+h2{
+	font-family: "Helvetica",sans-serif ;
+	font-size:20px;
+}
+
+.link-blanc{
+	text-decoration: none;
+	color: rgba(192,223,239);
+	transition: color 0.3s ease;
+}
+
+.link-blanc:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.container{
+	width: 800px;
+    margin: 10px auto;
+}
+
+#img-principal{
+	width: 90px;
+	border-radius: 50%;
+	box-shadow: 5px 5px 3px rgba(8, 34, 119,0.5)
+;
+	border:2px solid #082277;
+}
+
+.paragraphe-fondclair{
+	background-color: rgba(192,223,239,0.8);
+	color: #082277;
+	margin: 30px;
+	padding: 10px;
+	border:1px solid rgba(0,0,0,0.1);
+	border-radius: 4px
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1)
+}
+
+.paragraphe-transparent{
+	margin: 20px;
+	padding: 10px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1)
+}
+
+#btn-clair{
+	background-color: rgba(8, 34, 119,0.5);
+	color: #082277;
+	margin: auto;
+    width: 150px;
+	padding: 10px 10px
+}
+
+#btn-clair:hover{
+	background-color: rgba(192,223,239,0.7);
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 40px;
+}
+
+@media(max-width: 760px) {
+	.container{
+		width: 600px
+	}
+}
+@media(max-width: 500px) {
+	.container{
+		width: 400px
+	}
+}
